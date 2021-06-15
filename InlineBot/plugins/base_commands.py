@@ -9,18 +9,18 @@ from InlineBot.database import present_in_userbase, add_to_userbase
 
 start_keyboard = [
     [
-        InlineKeyboardButton(text = '🤔 Help', callback_data = "help"),
-        InlineKeyboardButton(text = '🤖 About', callback_data = "about")
+        InlineKeyboardButton(text = "Help', callback_data = "help"),
+        InlineKeyboardButton(text = '� About', callback_data = "about")
     ],
     [
-        InlineKeyboardButton(text = 'Close 🔒', callback_data = "close")
+        InlineKeyboardButton(text = 'Close �', callback_data = "close")
     ]
 ]
 
 start_keyboard_c = [
     [
-        InlineKeyboardButton(text = '🤖 About', callback_data = "about"),
-        InlineKeyboardButton(text = 'Close 🔒', callback_data = "close")
+        InlineKeyboardButton(text = '� About', callback_data = "about"),
+        InlineKeyboardButton(text = 'Close', callback_data = "close")
     ],
     [
         InlineKeyboardButton(text = 'Search Here', switch_inline_query_current_chat = '')
@@ -29,30 +29,30 @@ start_keyboard_c = [
 
 help_keyboard = [
     [
-        InlineKeyboardButton(text = '✏️ Markdown Helper ✏️', callback_data = 'markdownhelper')
+        InlineKeyboardButton(text = '✏ Markdown Helper ✏', callback_data = 'markdownhelper')
     ],
-    [
-        InlineKeyboardButton(text = '🤖 About', callback_data = 'about'),
-        InlineKeyboardButton(text = 'Close 🔒', callback_data = 'close')
+    
+        InlineKeyboardButton(text = '�About', callback_data = 'about'),
+        InlineKeyboardButton(text = 'Close �', callback_data = 'close')
     ]
 ]
 
 about_keyboard = [
      [
-        InlineKeyboardButton(text = '🤔 Help', callback_data = 'help'),
-        InlineKeyboardButton(text = 'Close 🔒', callback_data = 'close')
+        InlineKeyboardButton(text = '� Help', callback_data = 'help'),
+        InlineKeyboardButton(text = 'Close �', callback_data = 'close')
     ]
 ]
 
 about_keyboard_c = [
     [
-        InlineKeyboardButton(text = 'Close 🔒', callback_data = 'close')
+        InlineKeyboardButton(text = 'Close �', callback_data = 'close')
     ]
 ]
 
 markdown_keyboard = [
     [
-        InlineKeyboardButton(text = '🔙 Back', callback_data = 'help')
+        InlineKeyboardButton(text = '� Back', callback_data = 'help')
     ]
 ]
 
