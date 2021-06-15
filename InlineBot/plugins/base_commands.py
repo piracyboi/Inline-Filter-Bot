@@ -31,7 +31,7 @@ help_keyboard = [
     [
         InlineKeyboardButton(text = 'Markdown Helper', callback_data = 'markdownhelper')
     ],
-    
+    [
         InlineKeyboardButton(text = 'About', callback_data = 'about'),
         InlineKeyboardButton(text = 'Close', callback_data = 'close')
     ]
